@@ -8,20 +8,19 @@ import TodoFooter from "./TodoFooter";
 //think about what should be included in the tods array
 //an array of bojects (json)
 
-let todos = [
-//[
-//{}
-//{id: ,
-//  title: 'mow lawn' ,
-// },
-//{
-//  id: 2,
-//  title: 'Wash car',
-//},
-//]
+let todosTest = [
+{
+    id: 1,
+    title: 'mow lawn' ,
+},
+{
+    id: 2,
+    title: 'Wash car',
+},
+]
 
 const TodoApp = () => {
-    const [todos, setTpdos] = useState([])
+    const [todos, setTodos] = useState(todosTest)
     return (
         <>
             TodoApp
